@@ -1,0 +1,9 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    sort_unnamed_constructors_first: ignore 
+    sort_pub_dependencies: ignore
+    overridden_fields: ignore
+    avoid_positional_boolean_parameters: ignore 
+    non_constant_identifier_names: ignore
